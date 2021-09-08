@@ -14,7 +14,8 @@ namespace CoffeeShopConsoleApp
             {
                 new Coffee(),
                 new Coffee(),
-                new Coffee()
+                new Coffee(),
+                new Latte()
 
             };
 
