@@ -21,7 +21,8 @@ namespace CoffeeShopConsoleApp
 
             foreach (var coffee in orderList)
             {
-                Console.WriteLine($"the Price of the coffee is : {coffee.price()} - - - Strength: {coffee.strength()}");
+                Console.WriteLine($"the Price of the coffee is : {coffee.price()} - - - Strength: {coffee.strength()}\n" +
+                    $"Amount of milk in ml ");
             }
 
 
