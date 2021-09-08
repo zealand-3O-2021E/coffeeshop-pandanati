@@ -6,6 +6,9 @@ namespace CoffeeShopConsoleApp
 {
     class BlackCoffee : Coffee
     {
-
+        public override string strength()
+        {
+            return "Strong";
+        }
     }
 }
