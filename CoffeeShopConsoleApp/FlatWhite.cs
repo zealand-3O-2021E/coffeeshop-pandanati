@@ -4,28 +4,25 @@ using System.Text;
 
 namespace CoffeeShopConsoleApp
 {
-    class Latte : Coffee, IMilk
+    class FlatWhite : Coffee, IMilk
     {
         public int mlMilk()
         {
-            return 200;
+            return 160;
         }
-
-
-        public Latte(int discount) : base (discount)
+        public FlatWhite(int discount) : base(discount)
         {
 
         }
+
         public override int price()
         {
-            return 40;
+            return 30;
         }
 
         public override string strength()
         {
-            return "Weak";
+            return "Mild";
         }
-
-       
     }
 }

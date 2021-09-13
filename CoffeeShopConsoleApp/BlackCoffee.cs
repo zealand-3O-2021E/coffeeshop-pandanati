@@ -10,5 +10,10 @@ namespace CoffeeShopConsoleApp
         {
             return "Strong";
         }
+
+        public BlackCoffee(int discount) : base (discount)
+        {
+
+        }
     }
 }

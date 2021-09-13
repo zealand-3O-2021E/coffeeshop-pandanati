@@ -11,6 +11,12 @@ namespace CoffeeShopConsoleApp
             return 40;
         }
 
+        public Cortado(int discount) : base( discount )
+        {
+            
+        }
+
+
         public override int price()
         {
             return 25;
